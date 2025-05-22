@@ -1,5 +1,6 @@
 import React from "react";
 import SwapToken from "../components/SwapToken";
+import SwapTokenHomepage from "../components/SwapTokenHomepage";
 
 const HomePage = () => {
   return (
@@ -18,7 +19,7 @@ const HomePage = () => {
         </div>
 
         <div className="w-full max-w-md">
-          <SwapToken />
+          <SwapTokenHomepage />
         </div>
       </main>
     </div>
